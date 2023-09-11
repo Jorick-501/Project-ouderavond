@@ -12,10 +12,11 @@ body {
 
 /* Stijl voor de bovenste balk met navigatielinks */
 .header {
-    background-color: #333; /* Achtergrondkleur van de balk */
+    background-color: #007c38; /* Achtergrondkleur van de balk */
     color: #fff; /* Tekstkleur van de balk */
-    padding: 10px 0; /* Ruimte rond de tekst in de balk */
+    padding: 20px 0; /* Ruimte rond de tekst in de balk */
     text-align: center;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Schaduw toevoegen aan de tekst */
 }
 
 /* Stijl voor de navigatielinks */
@@ -44,6 +45,7 @@ body {
 h1 {
     font-size: 24px;
     color: #333; /* Tekstkleur voor koppen */
+    text-align: center;
 }
 
 /* Voorbeeldstijl voor alinea's */
@@ -51,4 +53,5 @@ p {
     font-size: 16px;
     line-height: 1.5;
     color: #666; /* Tekstkleur voor alinea's */
+    text-align: center;
 }
