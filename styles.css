@@ -15,6 +15,7 @@ body {
     background-color: #333; /* Achtergrondkleur van de balk */
     color: #fff; /* Tekstkleur van de balk */
     padding: 10px 0; /* Ruimte rond de tekst in de balk */
+    text-align: center;
 }
 
 /* Stijl voor de navigatielinks */
