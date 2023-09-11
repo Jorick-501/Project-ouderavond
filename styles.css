@@ -1,0 +1,53 @@
+/* Resetten van standaardmarges en -vullingen voor de hele pagina */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stel de achtergrondkleur van de pagina in */
+body {
+    background-color: #f0f0f0; /* Achtergrondkleur naar wens */
+    font-family: Arial, sans-serif; /* Kies een lettertype dat je mooi vindt */
+}
+
+/* Stijl voor de bovenste balk met navigatielinks */
+.header {
+    background-color: #333; /* Achtergrondkleur van de balk */
+    color: #fff; /* Tekstkleur van de balk */
+    padding: 10px 0; /* Ruimte rond de tekst in de balk */
+}
+
+/* Stijl voor de navigatielinks */
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centreer de links binnen de balk */
+}
+
+.nav-links li {
+    margin: 0 15px; /* Afstand tussen de link-items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff; /* Kleur van de linktekst */
+    font-weight: bold;
+}
+
+/* Stijl voor de inhoud van de pagina */
+.content {
+    padding: 20px;
+}
+
+/* Voorbeeldstijl voor een kop */
+h1 {
+    font-size: 24px;
+    color: #333; /* Tekstkleur voor koppen */
+}
+
+/* Voorbeeldstijl voor alinea's */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666; /* Tekstkleur voor alinea's */
+}
