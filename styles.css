@@ -14,7 +14,7 @@ body, h1, h2, p, ul, li, .header {
     align-items: center; /* Centreer verticaal */
     height: auto; /* Maak de hoogte automatisch aanpassend */
     text-align: center;
-    text-shadow: 4px 4px px rgba(0, 0, 0, 0.5); /* Schaduw toevoegen aan de tekst */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Schaduw toevoegen aan de tekst */
     font-size: 30px;
 }
 
@@ -62,6 +62,7 @@ p {
     line-height: 1.5;
     color: #666; /* Tekstkleur voor alinea's */
     text-align: center;
+font-family: sans-serif;
 
 }
         /* Voeg CSS-stijlen toe voor de afbeelding en container */
@@ -79,3 +80,5 @@ p {
         .content img {
             width: 300px; /* Pas de breedte van de afbeeldingen aan zoals gewenst */
             height: 300px;
+        }
+        
