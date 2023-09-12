@@ -62,4 +62,20 @@ p {
     line-height: 1.5;
     color: #666; /* Tekstkleur voor alinea's */
     text-align: center;
+
 }
+        /* Voeg CSS-stijlen toe voor de afbeelding en container */
+        .image-container {
+            text-align: center; /* Centreer de afbeeldingen horizontaal */
+            margin-top: 50px; /* Voeg ruimte toe boven de afbeeldingen */
+            display: flex; /* Maak een flex-container voor de afbeeldingen */
+            justify-content: center; /* Centreer de afbeeldingen horizontaal in de container */
+        }
+
+        .image-container a {
+            margin: 0 50px; /* Voeg wat ruimte tussen de afbeeldingen toe */
+        }
+
+        .content img {
+            width: 300px; /* Pas de breedte van de afbeeldingen aan zoals gewenst */
+            height: 300px;
