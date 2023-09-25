@@ -80,4 +80,16 @@ font-family: sans-serif;
             width: 300px; /* Pas de breedte van de afbeeldingen aan zoals gewenst */
             height: 300px;
         }
+
+a{
+text-decoration: none;
+
+
+}
+
+h2{ 
+text-align: center;
+
+
+}
         
