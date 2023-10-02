@@ -100,3 +100,7 @@ text-align: center;
     display: flex; /* Maak een flex-container voor de afbeeldingen */
     justify-content: left;
   }      
+  .locaties a {
+    margin: 0 20px;
+    
+  }
