@@ -4,6 +4,8 @@ body, h1, h2, p, ul, li, .header {
     padding: 0;
 }
 
+
+
 /* Stijl voor de bovenste balk met navigatielinks */
 .header {
     background-color: #007c38; /* Achtergrondkleur van de balk */
@@ -92,4 +94,9 @@ text-align: center;
 
 
 }
-        
+  .locaties {
+    text-align: center; /* Centreer de afbeeldingen horizontaal */
+    margin-top: 50px; /* Voeg ruimte toe boven de afbeeldingen */
+    display: flex; /* Maak een flex-container voor de afbeeldingen */
+    justify-content: left;
+  }      
