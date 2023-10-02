@@ -101,73 +101,8 @@ text-align: center;
     justify-content: left;
   }      
   .locaties a {
-    margin: 0 20px;
+    padding-left: 4%;
     
   }
 
-
-  #eduarte1 {
-
-    /* Your styles for the specific image go here */
-    
-    width: 225px;
-
-    height: 650px;
-    
-    }
-
-    img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: left; }
-
-    #eduarte2 {
-
-        /* Your styles for the specific image go here */
-        
-        width: 800px;
-    
-        height: 400px;
-        
-        }
-    
-        img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: right; }
-
-
-        #eduarte3 {
-
-            /* Your styles for the specific image go here */
-            
-            width: 550px;
-        
-            height: 300px;
-            
-            }
-        
-            img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: left; }
-
-            #eduarte4 {
-
-                /* Your styles for the specific image go here */
-                
-                width: 250px;
-            
-                height: 100px;
-                
-                }
-            
-                img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: right; }
-
-                #eduarte5 {
-
-                    /* Your styles for the specific image go here */
-                    
-                    width: 275px;
-                
-                    height: 600px;
-                    
-                    }
-                
-                    img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: right; }
-
-    
-
-                    
-            
+  
