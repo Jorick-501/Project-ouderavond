@@ -8,16 +8,17 @@ body, h1, h2, p, ul, li, .header {
 
 /* Stijl voor de bovenste balk met navigatielinks */
 .header {
-    background-color: #007c38; /* Achtergrondkleur van de balk */
+    background-image: linear-gradient(10deg, rgb(0, 171, 82), green); /* Achtergrondkleur van de balk */
     color: #fff; /* Tekstkleur van de balk */
-    padding: 20px 0; /* Ruimte rond de tekst in de balk */
+    padding: 10px 0; /* Ruimte rond de tekst in de balk */
     display: flex; /* Maak de header een flex-container */
-    justify-content: center; /* Verdeel de ruimte tussen de logo en tekst */
+    justify-content: left; /* Verdeel de ruimte tussen de logo en tekst */
     align-items: center; /* Centreer verticaal */
     height: auto; /* Maak de hoogte automatisch aanpassend */
     text-align: center;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Schaduw toevoegen aan de tekst */
     font-size: 30px;
+    border-bottom: 10px inset rgb(106, 106, 106);
 }
 
 /* Stijl voor het logo */
