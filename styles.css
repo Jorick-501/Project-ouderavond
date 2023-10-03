@@ -111,10 +111,10 @@ text-align: center;
 
   width: 225px;
 
-  height: 650px;
+  height: 643px;
 
   display: inline-block;
-  margin: 0px 20px;
+  margin: 3px 20px;
 
   }
 
@@ -124,12 +124,12 @@ text-align: center;
 
       /* Your styles for the specific image go here */
 
-      width: 800px;
+      width: 830px;
 
-      height: 400px;
+      height: 430px;
 
       display: inline-block;
-      margin: 0px 20px;
+      margin: 5px 20px;
 
       }
 
@@ -142,10 +142,10 @@ text-align: center;
 
           width: 550px;
 
-          height: 300px;
+          height: 280px;
 
           display: inline-block;
-          margin: 0px 20px;
+          margin: 7px 20px;
 
           }
 
@@ -160,7 +160,7 @@ text-align: center;
               height: 100px;
 
               display: inline-block;
-              margin: 0px 20px;
+              margin: 6px 20px;
 
               }
 
@@ -172,10 +172,10 @@ text-align: center;
 
                   width: 275px;
 
-                  height: 600px;
+                  height: 580px;
 
                   display: inline-block;
-                  margin: 0px 20px;
+                  margin: 6px 20px;
 
                   }
 
@@ -206,20 +206,53 @@ img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear
 
 img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: left; }
  
-.jorickcolor1 { 
+.backcolor { 
 
     height: auto;
     width: auto;
-    background-image: linear-gradient(60deg,#00ce5d,#00501f);
+    background-image: linear-gradient(60deg,#c5c5c5,#909090);
 
 }
 
-.jorickcolor2 {
+.backtextcolor {
 
-    background-color: #007c38;
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(80deg,#ffffff,#b0b0b0);
 }
 
-.textcolorjorick {
+.textcolor {
 
     color: black;
 }
+
+.keuzeblok {
+    background-image: linear-gradient(80deg,#ffffff,#b0b0b0);
+    width: 275px;
+    height: 275px;
+    border: 15px double #7c7c7c;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+  }
+
+#box {
+    height: 100%;
+    width: 100%;
+}
+
+.keuzeknoppen {
+    background-image: linear-gradient(80deg,#ffffff,#b0b0b0);
+    width: 275px;
+    height: 50px;
+    border: 15px double #7c7c7c;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+  }
+
+  #keuzetext {
+
+    text-align: center;
+    color: black;
+  }

@@ -7,7 +7,7 @@
     <!-- Link naar je CSS-bestand -->
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="backcolor">
     <header class="header">
         <img src="img/tcrlogo.png" alt="TCR Rotterdam logo" class="logo">
         <!-- Hier kun je je navigatielinks plaatsen -->
@@ -20,29 +20,63 @@
     </header>
     <main class="content">
         <!-- Hier komt de inhoud van je pagina -->
-        <h1>Welkom bij de ouderavond</h1>
-        <p>Dit is de startpagina van de ouderavondwebsite.</p>
-        <br>
-        <p>Wij hebben deze website gemaakt uit opdracht van onze school, om ouders te informeren over de ouderavonden.</p>
-        <br>
-        <p>Voor een snellere navigatie kunt u hieronder klikken om naar specifieke pagina's te gaan</p>
-        <a href="canvas.html">
-        <div class="image-container">
-            <img src="img/canvas.png" alt="Canvas">
-            <p>Link naar Canvas pagina</p>
+        <div class="backtextcolor">
+        <h1 class="textcolor">Welkom op de ouderavond!</h1>
+        <p class="textcolor" >
+            Goede avond, Wij hebben voor jullie een website moeten maken als een opdracht van school. Wij zijn hier de afgelopen
+            <br>
+            weken mee bezig geweest en wij mogen deze nu officeel aan jullie laten zien. Op de website zult u alle informatie vinden
+            <br>
+            over de school en over onze leermiddelen. Ook is er nog een apart gedeelt over ons. Via de balk
+            <br>
+            bovenin kunt u navigeren door de pagina's. En om het nog sneller te maken kunt u vast 1 van de keuzes hier onder kiezen.
+            <br>
+        </p>
+        </div>
+        <div class="keuzeblok">
+            <a href="canvas.html">
+            <img id="box" src="img/canvas.png">
         </a>
-        <a href="begeleiding.html">
-        <img src="img/begeleiding.png" alt="Begeleiding">
-        <p>Link naar begeleiding pagina</p>
+        </div>
+        <div class="keuzeblok">
+            <a href="eduarte.html">
+            <img id="box" src="img/eduartelogo.png">
         </a>
+        </div>
+        <div class="keuzeblok">
+            <a href="begeleiding.html">
+            <img id="box" src="img/help1.png">
+        </a>
+        </div>
+        <div class="keuzeblok">
+            <a href="opleiding.html">
+            <img id="box" src="img/opleidingen.png">
+        </a>
+        </div>
+
+        <div class="keuzeknoppen">
+            <a href="canvas.html">
+            <h1 id="keuzetext">CANVAS</h1>
+        </a>
+        </div>
+    </div>
+    <div class="keuzeknoppen">
         <a href="eduarte.html">
-        <img src="img/eduarte.png" alt="Eduarte">
-         <p>Link naar Eduarte pagina</p>
+        <h1 id="keuzetext">EDUARTE</h1>
         </a>
-        <a href="opleiding.html">
-        <img src="img/opleiding.png" alt="Opleiding">
-        <p>Link naar opleiding pagina</p>
-        </a>
+    </div>
+</div>
+<div class="keuzeknoppen">
+    <a href="begeleiding.html">
+    <h1 id="keuzetext">BEGELEIDING</h1>
+</a>
+</div>
+</div>
+<div class="keuzeknoppen">
+    <a href="opleiding.html">
+    <h1 id="keuzetext">OPLEIDINGEN</h1>
+</a>
+</div>
     </main>
 </body>
 </html>
