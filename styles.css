@@ -1,9 +1,15 @@
+/* Main Pagina*/
+
 /* Resetten van standaardmarges en -vullingen voor de hele pagina */
 body, h1, h2, p, ul, li, .header {
     margin: 0;
     padding: 0;
 }
 
+main
+{
+  text-align: center;
+}
 
 
 /* Stijl voor de bovenste balk met navigatielinks */
@@ -92,19 +98,7 @@ text-decoration: none;
 
 h2{ 
 text-align: center;
-
-
 }
-  .locaties {
-    text-align: center; /* Centreer de afbeeldingen horizontaal */
-    margin-top: 50px; /* Voeg ruimte toe boven de afbeeldingen */
-    display: flex; /* Maak een flex-container voor de afbeeldingen */
-    justify-content: left;
-  }      
-  .locaties a {
-    padding-left: 4%;
-    
-  }
 
 #eduarte1 {
 
@@ -192,7 +186,9 @@ text-align: center;
 
 }
 
-img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: right; }
+img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: right; 
+
+}
 
 #jorick2 {
 
@@ -205,13 +201,14 @@ img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear
 
 }
 
-img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: left; }
+img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: left; 
+}
  
 .backcolor { 
 
     height: auto;
     width: auto;
-    background-image: linear-gradient(60deg,#c5c5c5,#909090);
+    background-image: white;
 
 }
 
@@ -219,7 +216,7 @@ img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: 
 
     height: auto;
     width: auto;
-    background-image: linear-gradient(80deg,#ffffff,#b0b0b0);
+    background-image:white;
 }
 
 .textcolor {
@@ -227,6 +224,7 @@ img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: 
     color: black;
 }
 
+/* Pagina: Index */
 .keuzeblok {
     background-image: linear-gradient(80deg,#ffffff,#b0b0b0);
     width: 275px;
@@ -234,12 +232,15 @@ img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: 
     border: 15px double #7c7c7c;
     padding: 10px;
     margin: 20px;
-    display: inline-block;
+   display: inline-block;
+   justify-content: space-around;
+   flex-direction: row;
   }
 
 #box {
     height: 100%;
     width: 100%;
+
 }
 
 .keuzeknoppen {
@@ -257,3 +258,11 @@ img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: 
     text-align: center;
     color: black;
   }
+/* TCR */
+.locaties {
+  text-align: center; /* Centreer de afbeeldingen horizontaal */
+  margin-top: 50px; /* Voeg ruimte toe boven de afbeeldingen */
+  display: flex; /* Maak een flex-container voor de afbeeldingen */
+  justify-content: space-evenly;
+}
+  
