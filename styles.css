@@ -100,7 +100,7 @@ h2{
 text-align: center;
 }
 
-#eduarte1 {
+#Eduarte1 {
 
   /* Your styles for the specific image go here */
 
@@ -115,7 +115,7 @@ text-align: center;
 
   img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: left; }
 
-  #eduarte2 {
+  #Eduarte2 {
 
       /* Your styles for the specific image go here */
 
@@ -131,7 +131,7 @@ text-align: center;
       img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: right; }
 
 
-      #eduarte3 {
+      #Eduarte3 {
 
           /* Your styles for the specific image go here */
 
@@ -146,7 +146,7 @@ text-align: center;
 
           img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: left; }
 
-          #eduarte4 {
+          #Eduarte4 {
 
               /* Your styles for the specific image go here */
 
@@ -161,7 +161,7 @@ text-align: center;
 
               img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: right; }
 
-              #eduarte5 {
+              #Eduarte5 {
 
                   /* Your styles for the specific image go here */
 
@@ -260,9 +260,14 @@ img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: 
   }
 /* TCR */
 .locaties {
-  text-align: center; /* Centreer de afbeeldingen horizontaal */
+  text-align: left; /* Centreer de afbeeldingen horizontaal */
   margin-top: 50px; /* Voeg ruimte toe boven de afbeeldingen */
   display: flex; /* Maak een flex-container voor de afbeeldingen */
   justify-content: space-evenly;
 }
-  
+.locatie-text{
+    text-align: left; /* Centreer de afbeeldingen horizontaal */
+    margin-top: 10px; /* Voeg ruimte toe boven de afbeeldingen */
+    display: flex; /* Maak een flex-container voor de afbeeldingen */
+    justify-content: space-evenly;
+  }
