@@ -253,6 +253,14 @@ img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: 
     display: inline-block;
   }
 
+  #keuzeblok div{
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom:10px;
+    margin-top:10px;    
+    width:1400px;
+}
+
   #keuzetext {
 
     text-align: center;
