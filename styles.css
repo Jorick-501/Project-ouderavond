@@ -268,14 +268,14 @@ img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: 
   }
 /* TCR */
 .locaties {
-  text-align: left; /* Centreer de afbeeldingen horizontaal */
-  margin-top: 50px; /* Voeg ruimte toe boven de afbeeldingen */
-  display: flex; /* Maak een flex-container voor de afbeeldingen */
+  text-align: left;
+  margin-top: 50px; 
+  display: flex; 
   justify-content: space-evenly;
 }
 .locatie-text{
-    text-align: left; /* Centreer de afbeeldingen horizontaal */
-    margin-top: 10px; /* Voeg ruimte toe boven de afbeeldingen */
-    display: flex; /* Maak een flex-container voor de afbeeldingen */
+    text-align: left; 
+    margin-top: 10px;
+    display: flex;
     justify-content: space-evenly;
   }
