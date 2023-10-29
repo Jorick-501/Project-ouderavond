@@ -102,8 +102,6 @@ text-align: center;
 
 #Eduarte1 {
 
-  /* Your styles for the specific image go here */
-
   width: 225px;
 
   height: 643px;
@@ -116,8 +114,6 @@ text-align: center;
   img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: left; }
 
   #Eduarte2 {
-
-      /* Your styles for the specific image go here */
 
       width: 830px;
 
@@ -133,7 +129,6 @@ text-align: center;
 
       #Eduarte3 {
 
-          /* Your styles for the specific image go here */
 
           width: 550px;
 
@@ -148,8 +143,6 @@ text-align: center;
 
           #Eduarte4 {
 
-              /* Your styles for the specific image go here */
-
               width: 250px;
 
               height: 100px;
@@ -163,8 +156,6 @@ text-align: center;
 
               #Eduarte5 {
 
-                  /* Your styles for the specific image go here */
-
                   width: 275px;
 
                   height: 580px;
@@ -175,7 +166,7 @@ text-align: center;
                   }
 
                   img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: right; }
-#jorick1 {
+#rechtsfoto {
 
     width: 300;
 
@@ -190,7 +181,49 @@ img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear
 
 }
 
-#jorick2 {
+#rechtsfoto2 {
+
+    width: 560px;
+
+    height: 300px;
+
+    display: inline-block;
+    margin: 5px 20px;
+
+    }
+
+    img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: right; } 
+
+    #rechtsfoto3 {
+
+        width: 250px;
+    
+        height: 400px;
+    
+        display: inline-block;
+        margin: 5px 20px;
+    
+        }
+    
+        img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: right; } 
+
+        #rechtsfoto4 {
+
+            width: 830px;
+        
+            height: 400px;
+        
+            display: inline-block;
+            margin: 5px 20px;
+        
+            }
+        
+            img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: right; } 
+
+
+
+
+#linksfoto {
 
     width: 300;
 
@@ -203,6 +236,32 @@ img.right { float: right; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear
 
 img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: left; 
 }
+
+#linksfoto2 {
+
+    width: 430px;
+  
+    height: 300px;
+  
+    display: inline-block;
+    margin: 3px 20px;
+  
+    }
+  
+    img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: left; }
+
+    #linksfoto3 {
+
+        width: 430px;
+      
+        height: 400px;
+      
+        display: inline-block;
+        margin: 3px 20px;
+      
+        }
+      
+        img.left { float: left; margin: 0.5em 1em 1em 0; border: 1px solid #999; clear: left; }
  
 .backcolor { 
 
